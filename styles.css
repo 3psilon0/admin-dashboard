@@ -176,7 +176,7 @@ a {
 .project-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-auto-rows: minmax(300px, 1fr);
+    grid-auto-rows: minmax(200px, 1fr);
     gap: 30px;
 }
 
@@ -232,6 +232,35 @@ a {
 .announcement-content {
     font-size: 14px;
     font-weight: 300;
+}
+
+.trending-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #121212;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.trending-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 40px 5px 5px;
+    border-radius: 10px;
+}
+
+.trending-text {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.trending-card > img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
 }
 
 .roboto-regular {
